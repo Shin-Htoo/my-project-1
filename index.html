@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Innovix</title>
+    <!--------Boostrap css---->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!---MD Boostrap---->
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <!----Font awesome---->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <!--- Custom css- -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/query.css" />
+  </head>
+
+  <body>
+    <!--------Header Section---->
+    <header>
+      <div class="nav-all sticky-top">
+        <div class="nav1">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid navbar1">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                
+                <a class="navbar-brand" href="#">
+                  <img src="img/logo.png" alt="logo" class="logo mt-0"
+                /></a>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#">
+                  <img src="img/logo.png" alt="logo" class="logo mt-0"
+                /></a>
+                <form class="d-flex search-box">
+                  <input
+                    type="search"
+                    class="form-control pe-2 search"
+                    placeholder="Search Product"
+                    aria-label="Search"
+                  />
+                  <button class="btn0" type="button">
+                    <i class="fas fa-search"></i>
+                  </button>
+                </form>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item px-2">
+                    <i class="fas fa-user navicon"></i>
+                    <a class="nav-link" href="#">
+                      <small>Login Here</small>
+                      <p class="text-black">My Account</p>
+                    </a>
+                  </li>
+                  <li class="nav-item px-2">
+                    <i class="fas fa-shopping-cart navicon"></i>
+                    <a class="nav-link" href="#">
+                      <small>Shopping Cart</small>
+
+                      <p class="text-black">6 items</p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="nav2">
+          <nav class="navbar navbar-expand-lg navbar-light navbar-new">
+            <div class="container-fluid">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+              <i class="fas fa-bars px-2 bar1"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a href="#all-category">
+                  <div class="all-category">
+                    <i class="fas fa-bars px-2"></i>
+                    All Category
+                    <i class="fas fa-chevron-down px-2"></i>
+                  </div>
+                </a>
+                <ul class="navbar-nav">
+                  <li class="nav-item"><a href="#ticket">Service Ticket</a></li>
+                  <li class="nav-item"><a href="#homeserrvice">Home Service</a></li>
+                  <li class="nav-item">
+                    <a href="#Express Service">Express Service</a>
+                  </li>
+                  <li class="nav-item"><a href="#About Us">About Us</a></li>
+                  <li class="nav-item"><a href="#contact">Contact Us</a></li>
+
+                  <li class="nav-item">
+                    <div class="dropdown">
+                      <a
+                        class="btn btn-sm dropdown-toggle"
+                        href="#"
+                        role="button"
+                        id="dropdownMenuLink"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        <img src="img/uk.svg" alt="flag" class="dropflag" />
+                        <span class="country">English</span>
+                      </a>
+
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Myanmar</a></li>
+                      </ul>
+                    </div>
+                  </li>
+             
+              </div>
+            </div>
+          </nav>
+          <!-- <div class="container">
+            <ul class="nb">
+              <li>
+                <a href="#all-category">
+                  <div class="all-category">
+                    <i class="fas fa-bars px-2"></i>
+                    All Category
+                    <i class="fas fa-chevron-down px-2"></i>
+                  </div>
+                </a>
+              </li>
+              <li><a href="#ticket">Service Ticket</a></li>
+              <li><a href="#homeserrvice">Home Service</a></li>
+              <li><a href="#Express Service">Express Service</a></li>
+              <li><a href="#About Us">About Us</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+
+              <li>
+                <div class="dropdown">
+                  <a
+                    class="btn btn-sm dropdown-toggle"
+                    href="#"
+                    role="button"
+                    id="dropdownMenuLink"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img src="img/uk.svg" alt="flag" class="dropflag" />
+                    <span>English</span>
+                  </a>
+
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Myanmar</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div> -->
+        </div>
+      </div>
+      
+      <!---Banner Image--->
+
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-mdb-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-mdb-target="#carouselExampleIndicators"
+            data-mdb-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-mdb-target="#carouselExampleIndicators"
+            data-mdb-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-mdb-target="#carouselExampleIndicators"
+            data-mdb-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/b1.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/b2.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/b3.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-mdb-target="#carouselExampleIndicators"
+          data-mdb-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-mdb-target="#carouselExampleIndicators"
+          data-mdb-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!---Product Section --->
+      <section id="product mb-5">
+        <div class="container pro1">
+          <div class="row">
+            <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-0 col-xl-6 offset-xl-0">
+              <div class="box">
+                <div class="row box-1 py-2">
+                  <div class="col-xs-5 col-sm-5 col-md-5 pn-text">
+                    <p class="pt-4 px-3 ext-black"><b>Product Name</b></p>
+                    <h3 class="px-3">30% OFF</h3>
+                    <p class="px-3">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="col-xs-7 col-sm-7 col-md-7 product-pic">
+                    <img src="img/img1.png" alt="img1" class="img1" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-0 col-xl-6 offset-xl-0">
+              <div class="box">
+                <div class="row box-1 py-2">
+                  <div class="col-sm-5 col-md-5 pn-text">
+                    <p class="pt-4 px-3 ext-black"><b>Product Name</b></p>
+                    <h3 class="px-3">30% OFF</h3>
+                    <p class="px-3">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                  <div class="col-sm-7 col-md-7 product-pic">
+                    <img src="img/img1.png" alt="img1" class="img1" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---------product section 2 ---->
+      <section id="product2">
+        <div class="container">
+          <div class="row my-5">
+            <div class="col-md-12 text-center bth">
+              <!-- <div class="promo">All Promotions</div> -->
+              <button class="btn btna btn1">All Promotions</button>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <div class="latest">
+                <h2 class="mb-4">Latest <span>Products</span></h2>
+                <p class="py-3">
+                  <strong
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Illo aspernatur porro rerum. Omnis at iusto, dolore sint
+                    dicta, <br />nihil aliquid quas corrupti officiis ducimus
+                    vitae consequatur culpa veniam! Eligendi, alias?
+                  </strong>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="container mb-5">
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="caro-card">
+                    <div class="row">
+                      <div class="col-sm-6 col-md-6 col-lg-4 d-lg-block col-xl-3 d-xl-block">
+                        <div class="card" style="width: 17rem">
+                          <p class="per-price">-20%</p>
+                          <img
+                            src="img/p1.png"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title">
+                              <strong>
+                                Back-to-Black Heavy Duty Trim Cleaner
+                                Kit</strong
+                              >
+                            </h5>
+                            <div class="card-bottom d-flex">
+                              <p class="card-text price1">28000 Ks</p>
+                              <p class="text-decoration-line-through price2">
+                                30000 Ks
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-6 col-lg-4 d-lg-block col-xl-3 d-xl-block">
+                        <div class="card" style="width: 17rem">
+                          <p class="per-price">-20%</p>
+                          <img
+                            src="img/p2.png"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title">
+                              <strong>
+                                Back-to-Black Heavy Duty Trim Cleaner
+                                Kit</strong
+                              >
+                            </h5>
+                            <div class="card-bottom d-flex">
+                              <p class="card-text price1">28000 Ks</p>
+                              <p class="text-decoration-line-through price2">
+                                30000 Ks
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="d-sm-none d-md-none col-lg-4 d-lg-block col-xl-3 d-xl-block">
+                        <div class="card" style="width: 17rem">
+                          <p class="per-price">-20%</p>
+                          <img
+                            src="img/p3.png"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title">
+                              <strong>
+                                Back-to-Black Heavy Duty Trim Cleaner
+                                Kit</strong
+                              >
+                            </h5>
+                            <div class="card-bottom d-flex">
+                              <p class="card-text price1">28000 Ks</p>
+                              <p class="text-decoration-line-through price2">
+                                30000 Ks
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="d-sm-none d-md-none d-lg-none  col-xl-3 d-xl-block">
+                        <div class="card" style="width: 17rem">
+                          <p class="per-price">-20%</p>
+                          <img
+                            src="img/p4.png"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title">
+                              <strong>
+                                Back-to-Black Heavy Duty Trim Cleaner
+                                Kit</strong
+                              >
+                            </h5>
+                            <div class="card-bottom d-flex">
+                              <p class="card-text price1">28000 Ks</p>
+                              <p class="text-decoration-line-through price2">
+                                30000 Ks
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="caro-card">
+                    <div class="row">
+                      <div class="col-sm-6 col-md-6 col-lg-4 d-lg-block col-xl-3 d-xl-block">
+                        <div class="card" style="width: 17rem">
+                          <p class="per-price">-20%</p>
+                          <img
+                            src="img/p1.png"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title">
+                              <strong>
+                                Back-to-Black Heavy Duty Trim Cleaner
+                                Kit</strong
+                              >
+                            </h5>
+                            <div class="card-bottom d-flex">
+                              <p class="card-text price1">28000 Ks</p>
+                              <p class="text-decoration-line-through price2">
+                                30000 Ks
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-6 col-lg-4 d-lg-block col-xl-3 d-xl-block">
+                        <div class="card" style="width: 17rem">
+                          <p class="per-price">-20%</p>
+                          <img
+                            src="img/p2.png"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title">
+                              <strong>
+                                Back-to-Black Heavy Duty Trim Cleaner
+                                Kit</strong
+                              >
+                            </h5>
+                            <div class="card-bottom d-flex">
+                              <p class="card-text price1">28000 Ks</p>
+                              <p class="text-decoration-line-through price2">
+                                30000 Ks
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="d-sm-none d-md-none col-lg-4 d-lg-block col-xl-3 d-xl-block">
+                        <div class="card" style="width: 17rem">
+                          <p class="per-price">-20%</p>
+                          <img
+                            src="img/p3.png"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title">
+                              <strong>
+                                Back-to-Black Heavy Duty Trim Cleaner
+                                Kit</strong
+                              >
+                            </h5>
+                            <div class="card-bottom d-flex">
+                              <p class="card-text price1">28000 Ks</p>
+                              <p class="text-decoration-line-through price2">
+                                30000 Ks
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="d-sm-none d-md-none d-lg-none  col-xl-3 d-xl-block">
+                        <div class="card" style="width: 17rem">
+                          <p class="per-price">-20%</p>
+                          <img
+                            src="img/p4.png"
+                            class="card-img-top"
+                            alt="..."
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title">
+                              <strong>
+                                Back-to-Black Heavy Duty Trim Cleaner
+                                Kit</strong
+                              >
+                            </h5>
+                            <div class="card-bottom d-flex">
+                              <p class="card-text price1">28000 Ks</p>
+                              <p class="text-decoration-line-through price2">
+                                30000 Ks
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev prev-bt"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next nx-bt"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="row">
+            <img src="img/b3.jpg" class="bk-img img-fluid" alt="bk" />
+          </div>
+        </div>
+      </section>
+
+      <!---------Category..............-->
+      <section id="category">
+        <div class="container">
+          <div class="row mb-5">
+            <h2 class="text-center ctg">Categories</h2>
+          </div>
+
+          <div class="row mb-5">
+            <div class="col-sm-6 text-sm-center  col-md-4 d-md-block text-md-center  col-lg-4 d-lg-block  col-xl-2 d-xl-block">
+              <img src="img/ctg1.png" alt="" class="ctg-product" />
+              <p class="text-center py-2 fs-6"><strong>Automotive</strong></p>
+            </div>
+            <div class="col-sm-6 text-sm-center col-md-4 d-md-block text-md-center col-lg-4 d-lg-block  col-xl-2 d-xl-block">
+              <img src="img/ctg2.png" alt="" class="ctg-product" />
+              <p class="text-center py-2 fs-6"><strong>Auto Care</strong></p>
+            </div>
+            <div class="d-sm-none col-md-4 d-md-block col-lg-4 d-lg-block text-center col-xl-2 d-xl-block">
+              <img src="img/ctg3.png" alt="" class="ctg-product" />
+              <p class="text-center py-2 fs-6">
+                <strong>Auto Electroic</strong>
+              </p>
+            </div>
+            <div class="d-sm-none d-md-none d-lg-none col-xl-2 d-xl-block">
+              <img src="img/ctg4.png" alt="" class="ctg-product" />
+              <p class="text-center py-2 fs-6"><strong>Tire & Wheel</strong></p>
+            </div>
+            <div class="d-sm-none d-md-none  d-lg-none col-xl-2 d-xl-block">
+              <img src="img/ctg5.png" alt="" class="ctg-product" />
+              <p class="text-center py-2 fs-6"><strong>Car Battery</strong></p>
+            </div>
+            <div class="d-sm-none d-md-none  d-lg-none col-xl-2 d-xl-block">
+              <img src="img/ctg6.png" alt="" class="ctg-product" />
+              <p class="text-center py-2 fs-6">
+                <strong>Oil & Lubricant</strong>
+              </p>
+            </div>
+          </div>
+
+          <div class="row mb-5">
+            <div class="col-lg-8 offset-md-2">
+              <div class="row product-bar">
+                <div class="col-sm-12 text-sm-center col-md-4 d-md-block text-md-center col-xl-3 col-lg-4 d-lg-block text-lg-center col-xl-2 d-xl-block">
+                  <img src="img/ctg7.png" alt="" class="ctg-product" />
+                  <p class="text-center py-2 fs-6">
+                    <strong>Moto Parts & <br />Accessories</strong>
+                  </p>
+                </div>
+                <div class="d-sm-none text-sm-center col-md-4 d-md-block text-md-center col-xl-3 col-lg-4 d-lg-block text-lg-center col-xl-2 d-xl-block">
+                  <img src="img/ctg8.png" alt="" class="ctg-product" />
+                  <p class="text-center py-2 fs-6">
+                    <strong>Motorcyle <br />Riding Gear</strong>
+                  </p>
+                </div>
+                <div class="d-sm-none d-md-none col-xl-3 d-lg-block col-lg-4 col-xl-2 d-xl-block">
+                  <img src="img/ctg9.png" alt="" class="ctg-product" />
+                  <p class="text-center py-2 fs-6"><strong>Sticker</strong></p>
+                </div>
+                <div class="d-sm-none d-md-none col-xl-3 d-lg-none col-xl-2 d-xl-block">
+                  <img src="img/ctg10.png" alt="" class="ctg-product" />
+                  <p class="text-center py-2 fs-6">
+                    <strong>Car Paint</strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!----Service Ticket---->
+      <section id="feature mt-5">
+        <div class="container service">
+          <div class="row my-5">
+            <div class="col-xl-4  col-lg-4">
+              <div class="card1 d-flex">
+                <img
+                  src="img/st1.png"
+                  alt=""
+                  class="ctg-product service-ticket"
+                />
+                <div class="st">
+                  <img src="img/bg-half.png" alt="" class="bg-half" />
+                  <div class="tic text-white">
+                    <h4 class="">Service Ticket</h4>
+                    <p class="s-text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Quam dolore excepturi.
+                    </p>
+                    <div class="btn-tic">
+                      <button type="button" class="btn btnb btn-one">
+                        Explore More
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4  col-lg-4">
+              <div class="card1 d-flex">
+                <img
+                  src="img/st1.png"
+                  alt=""
+                  class="ctg-product service-ticket"
+                />
+                <div class="st">
+                  <img src="img/bg-half.png" alt="" class="bg-half" />
+                  <div class="tic text-white">
+                    <h4 class="">Service Ticket</h4>
+                    <p class="s-text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Quam dolore excepturi.
+                    </p>
+                    <div class="btn-tic">
+                      <button type="button" class="btn btnb btn-one">
+                        Explore More
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xl-4  col-lg-4">
+              <div class="card1 d-flex">
+                <img
+                  src="img/st1.png"
+                  alt=""
+                  class="ctg-product service-ticket"
+                />
+                <div class="st">
+                  <img src="img/bg-half.png" alt="" class="bg-half" />
+                  <div class="tic text-white">
+                    <h4 class="">Service Ticket</h4>
+                    <p class="s-text">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Quam dolore excepturi.
+                    </p>
+                    <div class="btn-tic">
+                      <button type="button" class="btn btnb btn-one">
+                        Explore More
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!----Feature Products------->
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <div class="latest feature">
+                <h2 class="mb-4">Featured <span>Products</span></h2>
+                <p class="py-3">
+                  <strong
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Illo aspernatur porro rerum. Omnis at iusto, dolore sint
+                    dicta, <br />nihil aliquid quas corrupti officiis ducimus
+                    vitae consequatur culpa veniam! Eligendi, alias?
+                  </strong>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!---Product Lists --->
+          <section class="product-list mt-5 mb-5">
+            <div class="container">
+              <div class="row mb-5">
+                <div class="col-sm-6 col-md-6 col-lg-4 d-lg-block col-xl-3 d-xl-block">
+                  <div class="card" style="width: 17rem">
+                    <p class="per-price">-20%</p>
+                    <img
+                      src="img/p1.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <strong>
+                          Back-to-Black Heavy Duty Trim Cleaner
+                          Kit</strong
+                        >
+                      </h5>
+                      <div class="card-bottom d-flex">
+                        <p class="card-text price1">28000 Ks</p>
+                        <p class="text-decoration-line-through price2">
+                          30000 Ks
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 d-lg-block col-xl-3 d-xl-block">
+                  <div class="card" style="width: 17rem">
+                    <p class="per-price">-20%</p>
+                    <img
+                      src="img/p2.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <strong>
+                          Back-to-Black Heavy Duty Trim Cleaner
+                          Kit</strong
+                        >
+                      </h5>
+                      <div class="card-bottom d-flex">
+                        <p class="card-text price1">28000 Ks</p>
+                        <p class="text-decoration-line-through price2">
+                          30000 Ks
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-sm-none d-md-none col-lg-4 d-lg-block col-xl-3 d-xl-block">
+                  <div class="card" style="width: 17rem">
+                    <p class="per-price">-20%</p>
+                    <img
+                      src="img/p3.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <strong>
+                          Back-to-Black Heavy Duty Trim Cleaner
+                          Kit</strong
+                        >
+                      </h5>
+                      <div class="card-bottom d-flex">
+                        <p class="card-text price1">28000 Ks</p>
+                        <p class="text-decoration-line-through price2">
+                          30000 Ks
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-sm-none d-md-none d-lg-none  col-xl-3 d-xl-block">
+                  <div class="card" style="width: 17rem">
+                    <p class="per-price">-20%</p>
+                    <img
+                      src="img/p4.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <strong>
+                          Back-to-Black Heavy Duty Trim Cleaner
+                          Kit</strong
+                        >
+                      </h5>
+                      <div class="card-bottom d-flex">
+                        <p class="card-text price1">28000 Ks</p>
+                        <p class="text-decoration-line-through price2">
+                          30000 Ks
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-5">
+                <div class="col-sm-6 col-md-6 col-lg-4 d-lg-block col-xl-3 d-xl-block">
+                  <div class="card" style="width: 17rem">
+                    <p class="per-price">-20%</p>
+                    <img
+                      src="img/p1.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <strong>
+                          Back-to-Black Heavy Duty Trim Cleaner
+                          Kit</strong
+                        >
+                      </h5>
+                      <div class="card-bottom d-flex">
+                        <p class="card-text price1">28000 Ks</p>
+                        <p class="text-decoration-line-through price2">
+                          30000 Ks
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 d-lg-block col-xl-3 d-xl-block">
+                  <div class="card" style="width: 17rem">
+                    <p class="per-price">-20%</p>
+                    <img
+                      src="img/p2.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <strong>
+                          Back-to-Black Heavy Duty Trim Cleaner
+                          Kit</strong
+                        >
+                      </h5>
+                      <div class="card-bottom d-flex">
+                        <p class="card-text price1">28000 Ks</p>
+                        <p class="text-decoration-line-through price2">
+                          30000 Ks
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-sm-none d-md-none col-lg-4 d-lg-block col-xl-3 d-xl-block">
+                  <div class="card" style="width: 17rem">
+                    <p class="per-price">-20%</p>
+                    <img
+                      src="img/p3.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <strong>
+                          Back-to-Black Heavy Duty Trim Cleaner
+                          Kit</strong
+                        >
+                      </h5>
+                      <div class="card-bottom d-flex">
+                        <p class="card-text price1">28000 Ks</p>
+                        <p class="text-decoration-line-through price2">
+                          30000 Ks
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-sm-none d-md-none d-lg-none  col-xl-3 d-xl-block">
+                  <div class="card" style="width: 17rem">
+                    <p class="per-price">-20%</p>
+                    <img
+                      src="img/p4.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <strong>
+                          Back-to-Black Heavy Duty Trim Cleaner
+                          Kit</strong
+                        >
+                      </h5>
+                      <div class="card-bottom d-flex">
+                        <p class="card-text price1">28000 Ks</p>
+                        <p class="text-decoration-line-through price2">
+                          30000 Ks
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-5">
+                <div class="col-sm-6 col-md-6 col-lg-4 d-lg-block col-xl-3 d-xl-block">
+                  <div class="card" style="width: 17rem">
+                    <p class="per-price">-20%</p>
+                    <img
+                      src="img/p1.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <strong>
+                          Back-to-Black Heavy Duty Trim Cleaner
+                          Kit</strong
+                        >
+                      </h5>
+                      <div class="card-bottom d-flex">
+                        <p class="card-text price1">28000 Ks</p>
+                        <p class="text-decoration-line-through price2">
+                          30000 Ks
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 d-lg-block col-xl-3 d-xl-block">
+                  <div class="card" style="width: 17rem">
+                    <p class="per-price">-20%</p>
+                    <img
+                      src="img/p2.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <strong>
+                          Back-to-Black Heavy Duty Trim Cleaner
+                          Kit</strong
+                        >
+                      </h5>
+                      <div class="card-bottom d-flex">
+                        <p class="card-text price1">28000 Ks</p>
+                        <p class="text-decoration-line-through price2">
+                          30000 Ks
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-sm-none d-md-none col-lg-4 d-lg-block col-xl-3 d-xl-block">
+                  <div class="card" style="width: 17rem">
+                    <p class="per-price">-20%</p>
+                    <img
+                      src="img/p3.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <strong>
+                          Back-to-Black Heavy Duty Trim Cleaner
+                          Kit</strong
+                        >
+                      </h5>
+                      <div class="card-bottom d-flex">
+                        <p class="card-text price1">28000 Ks</p>
+                        <p class="text-decoration-line-through price2">
+                          30000 Ks
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-sm-none d-md-none d-lg-none  col-xl-3 d-xl-block">
+                  <div class="card" style="width: 17rem">
+                    <p class="per-price">-20%</p>
+                    <img
+                      src="img/p4.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <strong>
+                          Back-to-Black Heavy Duty Trim Cleaner
+                          Kit</strong
+                        >
+                      </h5>
+                      <div class="card-bottom d-flex">
+                        <p class="card-text price1">28000 Ks</p>
+                        <p class="text-decoration-line-through price2">
+                          30000 Ks
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <!-------Bottom-------->
+      <section id="bottom">
+        <div class="container py-5">
+          <div class="row">
+            <div class=" col-md-3">
+              <div class="bottom-box d-flex">
+                <i class="fas fa-shipping-fast icon-ship"></i>
+                <div class="f-shipping">
+                  <h6 class="free-text"><strong>Free Shipping</strong></h6>
+                  <small class="order-price">For orders from 30000K s</small>
+                </div>
+              </div>
+            </div>
+
+            <div class=" col-md-3">
+              <div class="bottom-box d-flex">
+                <i class="far fa-user icon-ship"></i>
+                <div class="f-shipping">
+                  <h6 class="free-text"><strong>Support 24/7</strong></h6>
+                  <small class="order-price">Call Us Anytime</small>
+                </div>
+              </div>
+            </div>
+
+            <div class=" col-md-3">
+              <div class="bottom-box d-flex">
+                <i class="fas fa-user-shield icon-ship"></i>
+                <div class="f-shipping">
+                  <h6 class="free-text"><strong>100% Safety</strong></h6>
+                  <small class="order-price">Only Secure Payments</small>
+                </div>
+              </div>
+            </div>
+
+            <div class=" col-md-3">
+              <div class="bottom-box d-flex">
+                <i class="fas fa-tags icon-ship"></i>
+                <div class="f-shipping">
+                  <h6 class="free-text"><strong>Hotel Offers</strong></h6>
+                  <small class="order-price">Discount up to 90%</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!------------Footer Section------------->
+      <section id="footer">
+        <div class="contact-f">
+          <div class="container py-5">
+            <div class="row">
+              <div class="col-md-3 part1">
+                <img src="img/b-logo.png" alt="b-logo" class="b-logo" />
+                <div class="address-bar">
+                  <ul class="text-white">
+                    <li class="d-flex">
+                      <i class="fas fa-map-marker-alt px-2 icon-small"></i>
+                      <p class="contact-text">
+                        No 23, Yadana Street, 16/2 Ward,<br />Thingangyun
+                        Township, Yangon, Myanmar.
+                      </p>
+                    </li>
+
+                    <li class="d-flex">
+                      <i class="fas fa-phone-alt px-2 icon-small"></i>
+                      <p class="contact-text">+95 9xxxxxxxxx, +959xxxxxxxxx</p>
+                    </li>
+
+                    <li class="d-flex">
+                      <i class="fas fa-envelope px-2 icon-small"></i>
+                      <p class="contact-text">xxxxxxxxx@xxxxxxxxxxx.com</p>
+                    </li>
+
+                    <li class="px-2">
+                      <i class="fab fa-facebook icon-small"></i>
+                      <i class="fab fa-viber icon-small"></i>
+                      <i class="fab fa-instagram icon-small"></i>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-md-3 part2">
+                <h6>Information</h6>
+                <ul>
+                  <li>About Us</li>
+                  <li>Contact Us</li>
+                  <li>Privacy Policy</li>
+                  <li>Terms & Conditions</li>
+                </ul>
+              </div>
+
+              <div class="col-md-3 part2">
+                <h6>Customer Service</h6>
+                <ul>
+                  <li>Home Service</li>
+                  <li>Service Ticket</li>
+                  <li>Express Service</li>
+                  
+                </ul>
+              </div>
+
+              <div class="col-md-3 part2">
+                <h6>Payment Type</h6>
+                <div class="p-card py-3">
+                  <img src="img/wave.png" alt="wave" class="wave" />
+                  <img src="img/mpu.png" alt="mpu" class="mpu" />
+                  <img src="img/ok.png" alt="wave" class="wave" />
+                  <img src="img/mp.png" alt="wave" class="wave d-md-none" />
+                </div>
+                <div class="p-card">
+                  <img src="img/wave.png" alt="wave" class="wave" />
+                  <img src="img/mpu.png" alt="mpu" class="mpu" />
+                  <img src="img/ok.png" alt="wave" class="wave" />
+                  <img src="img/mp.png" alt="wave" class="wave d-md-none" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!------------Footer last----------->
+      <section id="ft">
+        <div class="container copy1">
+          <div class="row">
+            <p class="text-center">
+              Copyright © Steadfast 2020. Powered by Innovix Digital.
+            </p>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <!---------js---->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"
+    ></script>
+  </body>
+</html>

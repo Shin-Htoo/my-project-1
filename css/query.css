@@ -1,0 +1,366 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@media only screen and (max-width: 1400px) {
+  /*...........nav2....*/
+  .nav1 {
+    width: 100%;
+  }
+
+  .logo {
+    padding-right: 30px;
+    height: 45px;
+  }
+  .search-box {
+    margin-right: 80px;
+    margin-top: 8px;
+  }
+  .all-category {
+    margin-right: 70px;
+    padding-left: 20px;
+    color: #fff;
+    font-size: 13px;
+  }
+  .navbar-new ul li a {
+    font-size: 13px;
+  }
+  .navbar-new li {
+    padding-top: 8px;
+    padding-right: 25px;
+  }
+  .nav-item .dropdown {
+    height: 25px;
+  }
+  .dropflag {
+    height: 10px;
+    padding-right: 2px;
+  }
+  .dropdown a {
+    padding-top: 1px;
+  }
+  .dropdown-menu {
+    background-color: #fff
+    width: 15px;
+  }
+  .country{
+    font-size:9px;
+  }
+  /*.....Product Name */
+  #product {
+    margin: 0;
+    width: 100%;
+  }
+  /*..service tic......*/
+  .card1 {
+    background-color: #eeeeee;
+    width: 320px;
+    height: 210px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .service-ticket {
+    height: 120px;
+    margin-top: 20px;
+    margin-left: 50px;
+    z-index: 2;
+  }
+
+  .bg-half {
+    margin-left: -150px;
+    z-index: 1;
+    width: 300px;
+    height: 210px;
+  }
+  .tic {
+    margin-top: -175px;
+    font-size: 9px;
+    padding-left: 10px;
+    z-index: 3;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    /*.....nav1.......*/
+    .nav1 {
+      width: 100%;
+      margin-top: 2px;
+    }
+    .navicon {
+      font-size: 32px;
+      color: #8a8989;
+      padding-right: 3px;
+    }
+
+    .nav-item {
+      display: flex;
+      margin-right: 1px;
+    }
+    .search-box {
+      margin-right: 25px;
+      width: 300px;
+    }
+  }
+  /*...........nav2....*/
+  .all-category {
+    width: 160px;
+    margin-right: 20px;
+  }
+  .dropdown {
+    margin-left: 60px;
+  }
+  .nav2 {
+    width: 100%;
+    height: 48px;
+    padding: 0 30px;
+    background-color: #000;
+  }
+  .nb {
+    list-style: none;
+    display: flex;
+    color: #fff;
+    padding: 10px 6px;
+    font-size: 9px;
+  }
+  .nb li {
+    padding-right: 15px;
+  }
+  /*.....Product Name */
+  #product {
+    margin: 0;
+    width: 100%;
+    height: 300px;
+  }
+
+  .box-1 {
+    background-color: #eeeeee;
+    line-height: 20px;
+    width: 450px;
+  }
+  .box-1 .product-pic img {
+    height: 190px;
+    padding-top: 20px;
+  }
+  .box-1 pn-text {
+    font-size: 18px;
+  }
+  .box {
+    width: 600px;
+    padding-top: 40px;
+  }
+}
+.latest{
+  font-size:12px;
+}
+.card .per-price{
+  font-size:11px;
+  width:40px;
+}
+.card-body{
+  font-size:13px;
+}
+.part2 h6{
+  margin-left:20px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .navbar1 {
+    padding: 0px 45px;
+    background-color: #fff;
+    width: 100%;
+    font-size: 14px;
+  }
+  .logo {
+    padding-right: 50px;
+    padding-top: 10px;
+    height: 50px;
+  }
+  .search-box {
+    margin-right: 20px;
+    width: 250px;
+    margin-left: -20px;
+  }
+  .search {
+    border-radius: 60px;
+    outline: none;
+    border: 1px solid rgb(241, 241, 241);
+    height: 40px;
+    width: 440px;
+  }
+  .navicon {
+    font-size: 30px;
+    padding-top: 10px;
+    color: #8a8989;
+    padding-right: 10px;
+  }
+  .nav-item {
+    display: flex;
+    margin-right: 20px;
+  }
+
+  .nav2 {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+  }
+  .all-category {
+    margin-right: 30px;
+  }
+  .dropdown {
+    margin-left: 70px;
+  }
+  .nb {
+    list-style: none;
+    display: flex;
+    color: #fff;
+  }
+  .nb li {
+    font-size: 14px;
+  }
+  /*.product name.*/
+  #product {
+    margin: 0;
+    width: 100%;
+    height: 300px;
+  }
+
+  .box-1 {
+    background-color: #eeeeee;
+    line-height: 30px;
+    font-size: 12px;
+  }
+
+  .latest h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+  }
+
+  .latest p {
+    font-size: 13px;
+  }
+
+  .card-body h5 {
+    font-size: 14px;
+  }
+  .card-bottom p {
+    font-size: 12px;
+  }
+  .card .per-price {
+    font-size: 10px;
+    width: 40px;
+  }
+  .ctg {
+    font-size: 24px;
+  }
+  .service-ticket {
+    height: 120px;
+    margin-top: 32px;
+    margin-left: 10px;
+    z-index: 2;
+  }
+  .bg-half {
+    margin-left: -120px;
+    z-index: 1;
+  }
+  .btn-tic {
+    font-size: 10px;
+    width: 90px;
+  }
+  .btn-tic .btnb {
+    min-width: 139px;
+    line-height: 17px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .bottom-box h6 {
+    font-size: 14px;
+  }
+  .bottom-box .order-price {
+    font-size: 12px;
+  }
+  .b-logo {
+    font-size: 45px;
+  }
+  .address-bar {
+    padding-top: 10px;
+    font-size: 13px;
+  }
+  .icon-small {
+    font-size: 10px;
+  }
+  .part2 {
+    font-size: 13px;
+  }
+  .copy1 {
+    font-size: 8px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .nav2 {
+    background-color: #000;
+    width: 100%;
+    height: 48px;
+    color: #fff;
+  }
+  .navbar-new {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+  }
+  .navbar-new ul li a {
+    color: #000;
+  }
+  .bar1 {
+    color: #fff;
+  }
+  .all-category {
+    padding-left: 0px;
+    color: #000;
+    margin-top: 14px;
+  }
+  .dropdown {
+    margin-left: 0px;
+  }
+  .card1 {
+    background-color: #eeeeee;
+    width: 300px;
+    height: 210px;
+    position: relative;
+    z-index: 1;
+  }
+  .bottom-box {
+    width: 200px;
+    height: 80px;
+    font-size: 9px;
+    padding-top: 8px;
+  }
+  .icon-ship {
+    font-size: 20px;
+  }
+  .f-shipping h6 {
+    font-size: 13px;
+  }
+
+  .contact-f .b-logo {
+    height: 70px;
+  }
+  .address-bar ul {
+    font-size: 10px;
+  }
+  .part2 li {
+    line-height: 30px;
+    font-size: 10px;
+  }
+
+  .copy1 p {
+    font-size: 9px;
+  }
+}
+
+@media only screen and (max-width: 767.98px){}; /*...sm..*/
+@media only screen and (max-width: 575.98px); 
